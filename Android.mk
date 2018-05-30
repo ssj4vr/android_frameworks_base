@@ -1534,7 +1534,7 @@ include $(BUILD_HOST_JAVA_LIBRARY)
 
 
 # Include subdirectory makefiles
-# ============================================================
+# =============================================================
 
 # If we're building with ONE_SHOT_MAKEFILE (mm, mmm), then what the framework
 # team really wants is to build the stuff defined by this makefile.
