@@ -751,6 +751,11 @@ public class ActivityInfo extends ComponentInfo
      */
     public static final int CONFIG_DENSITY = 0x1000;
     /**
+     * Bit in {@link #configChanges} that indicates a font change occurred
+     * @hide
+     */
+    public static final int CONFIG_THEME_FONT = 0x200000;
+    /**
      * Bit in {@link #configChanges} that indicates that the activity
      * can itself handle the change to layout direction. Set from the
      * {@link android.R.attr#configChanges} attribute.
