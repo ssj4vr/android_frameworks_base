@@ -339,7 +339,8 @@ public class ZygoteProcess {
                                                       String instructionSet,
                                                       String appDataDir,
                                                       String invokeWith,
-                                                      String[] extraArgs)
+                                                      String[] extraArgs,
+                                                      boolean refreshFont)
                                                       throws ZygoteStartFailedEx {
         ArrayList<String> argsForZygote = new ArrayList<String>();
 
